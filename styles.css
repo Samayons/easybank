@@ -1,0 +1,429 @@
+html {
+    height: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    height: 0;
+    border: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    height: 95px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(233, 26%, 24%);
+}
+
+.easybank-logo {
+    position: relative;
+    top: 45px;
+    left: 200px;
+    width: max-content;
+}
+
+.navbar-nav {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    height: inherit;
+}
+
+.navbar .toggle-collapse {
+    float: right;
+    display: none;
+}
+
+.navbar-collapse {
+    position: relative;
+    left: 500px;
+    width: max-content;
+    height: 70px;
+}
+
+.nav-item a {
+    height: 31px;
+}
+
+.navbar .navbar-nav .nav-item {
+    display: inline;
+    list-style: none;
+}
+
+.navbar-nav .nav-item a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    text-align: center;
+    color: hsl(233, 8%, 62%);
+}
+
+.navbar-nav .nav-item a:hover {
+    border-bottom: 5px solid;
+    border-image: Linear-Gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%)) 1;
+    animation: 1s ease-out;
+}
+
+.button {
+    background-image: Linear-Gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border-style: none;
+    outline: none;
+    display: inline-block;
+    width: 170px;
+    height: 45px;
+    position: relative;
+}
+
+.button:hover {
+    opacity: 0.4;
+}
+
+.button-div {
+    position: relative;
+    left: 80%;
+    bottom: 60px;
+    width: max-content;
+}
+
+.button h4 {
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    bottom: 4px;
+    letter-spacing: 1px;
+}
+
+.second-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 650px;
+    position: relative;
+    bottom: 53px;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url("/images/bg-intro-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-x: 680px;
+    background-position-y: -260px;
+}
+
+.next-gen {
+    position: relative;
+    left: 150px;
+    top: 170px;
+    height: 320px;
+    width: 32%;
+}
+
+.next-gen-header {
+    position: relative;
+    top: 0;
+    font-weight: 300;
+    font-size: 55px;
+    color: hsl(233, 26%, 24%);
+}
+
+p {
+    color: hsl(233, 8%, 62%);
+    font-size: 20px;
+    position: relative;
+    bottom: 25px;
+}
+
+#button {
+    position: relative;
+    top: 0;
+}
+
+div .next-gen-mobiles {
+    width: 636px;
+    position: absolute;
+    right: 0;
+    top: -121px;
+    overflow: hidden;
+}
+
+div.third-section {
+    position: relative;
+    z-index: -1;
+    top: -92px;
+    height: 700px;
+    width: 100%;
+    background-color: hsl(220, 16%, 96%);
+}
+
+div.why-choose-us {
+    position: relative;
+    top: 120px;
+    left: 150px;
+    width: 48%;
+    height: 150px;
+}
+
+.why-section {
+    position: relative;
+    top: 10px;
+    font-size: 40px;
+    color: hsl(233, 26%, 24%);
+}
+
+.why-paragraph {
+    position: relative;
+    top: 0;
+}
+
+.row {
+    width: 83%;
+    height: 300px;
+    position: relative;
+    top: 180px;
+    left: 150px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: inherit;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-paragraph {
+    color: hsl(233, 26%, 24%);
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+}
+
+.card-paragraph-2 {
+    position: relative;
+    top: 11px;
+    padding-right: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.fourth-section {
+    position: relative;
+    top: -126px;
+    width: 100%;
+    height: 590px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.latest-articles {
+    position: relative;
+    left: 150px;
+    top: 80px;
+    width: max-content;
+    font-size: 35px;
+    font-weight: 200;
+    color: hsl(233, 26%, 24%);
+}
+
+.fourth-sec {
+    position: relative;
+    top: 80px;
+    left: 80px;
+    width: 90%;
+    height: 380px;
+}
+
+.common {
+    position: relative;
+    top: 10px;
+    float: left;
+    width: 250px;
+    left: 70px;
+    border-radius: 8px;
+    height: 350px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#restaurant {
+    position: relative;
+    left: 110px;
+}
+
+#plane {
+    position: relative;
+    left: 150px;
+}
+
+#confetti {
+    position: relative;
+    left: 190px;
+}
+
+.common-header {
+    height: max-content;
+}
+
+.img-style {
+    height: 170px;
+    width: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.common-body {
+    position: relative;
+    top: -10px;
+    padding: 0 20px;
+    height: 175px;
+}
+
+.money-paragraph {
+    font-size: 13px;
+    position: relative;
+    bottom: -10px;
+}
+
+.common-p {
+    position: relative;
+    bottom: -20px;
+    font-size: 10px;
+}
+
+.common-h4 {
+    position: relative;
+    bottom: -15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: hsl(233, 26%, 24%);
+}
+
+footer {
+    background-color: hsl(233, 26%, 24%);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -125px;
+    border: 0;
+    margin: 0;
+}
+
+.footer-container {
+    position: relative;
+    height: 80%;
+    width: 80%;
+    right: 10%;
+    left: 10%;
+    top: 20px;
+}
+
+.logo-social {
+    position: relative;
+    height: inherit;
+    width: 20%;
+    top: 15px;
+}
+
+.logo-bottom {
+    position: relative;
+    top: 20px;
+}
+
+.logo-list {
+    position: relative;
+    top: 60px;
+}
+
+.social-media {
+    margin-right: 10px;
+    position: relative;
+    left: -40px;
+
+}
+
+.more-info {
+    position: relative;
+    left: 300px;
+    height: 80%;
+    width: 33%;
+    top: -137px;
+}
+
+.info-block1 {
+    position: relative;
+    width: 50%;
+    height: 80%;
+    top: 20px;
+}
+
+.info-block2 {
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 80%;
+    top: -82px;
+}
+
+.info-block2 h5 {
+    position: relative;
+    top: -25px;
+}
+
+h5 {
+    color: hsl(233, 8%, 62%);
+    
+}
+
+.btn-trademark {
+    position: relative;
+    height: inherit;
+    width: 30%;
+    float: right;
+    top: -340px;
+}
+
+.btn-trademark .button {
+    position: relative;
+    float: inherit;
+}
+
+.btn-trademark p {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    left: 143px;
+    top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
