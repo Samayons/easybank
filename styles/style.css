@@ -1,3 +1,5 @@
+@import "mobstyle.css" screen and (max-width: 600px);
+
 html {
     height: 0;
 }
@@ -139,7 +141,8 @@ p {
     bottom: 25px;
 }
 
-#button {
+/* i changed from id to div element */
+.second-section button {                          
     position: relative;
     top: 0;
 }
@@ -310,7 +313,7 @@ div.why-choose-us {
 footer {
     background-color: hsl(233, 26%, 24%);
     width: 100%;
-    height: 200px;
+    height: 260px;
     position: relative;
     top: -125px;
     border: 0;
@@ -355,7 +358,7 @@ footer {
     left: 300px;
     height: 80%;
     width: 33%;
-    top: -137px;
+    top: -155px;
 }
 
 .info-block1 {
@@ -370,7 +373,7 @@ footer {
     float: right;
     width: 50%;
     height: 80%;
-    top: -82px;
+    top: -113.5px;
 }
 
 .info-block2 h5 {
@@ -388,7 +391,7 @@ h5 {
     height: inherit;
     width: 30%;
     float: right;
-    top: -340px;
+    top: -420px;
 }
 
 .btn-trademark .button {
@@ -404,26 +407,19 @@ h5 {
     top: 45px;
 }
 
+.attribution { 
+    margin-top: 30px;
+    height: 20px;
+    font-size: 11px; text-align: center; 
+}
 
+.attribution a { 
+    color: hsl(192, 70%, 51%); 
+}
 
+.attribution p {
+    font-size: 15px;
+    color: #fff;
+    position: inherit;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }

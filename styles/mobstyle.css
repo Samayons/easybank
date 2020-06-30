@@ -1,0 +1,329 @@
+
+body {
+    display: block;
+    text-align: center;
+    position: static;
+}
+
+#navbar {
+    position: absolute;
+    height: 55px;
+}
+
+#navbar #easybank-logo {
+    position: relative;
+    width: max-content;
+    height: 40px;
+    left: 30px;
+    top: 10px;
+}
+
+#easybank-logo img {
+    position: relative;
+    width: 130px;
+    top: 8px;
+    left: 0;
+}
+
+nav .button-div {
+    position: absolute;
+    left: 0;
+    display: none;
+    top: 500px;
+}
+
+#navbar-collapse {
+    position: absolute;
+    width: 90%;
+    height: max-content;
+    top: 70px;
+    left: 18px;
+    display: none;
+    padding: 3px 0 15px 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.navbar-nav li {
+    position: static;
+    height: 45px;
+    display: list-item !important;
+}
+
+.navbar-nav li a {
+    position: relative;
+    height: 10px;
+    color: hsl(233, 26%, 24%) !important;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#navbar #toggle-collapse {
+    float: right;
+    cursor: pointer;
+    display: unset;
+    position: relative;
+    top: 15px;
+    height: max-content;
+    right: 30px;
+    border-style: none;
+    outline: none;
+    background-color: white;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 1px;
+    background-color: hsl(233, 26%, 24%);
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-1px, 0) ;
+}
+
+#second-section-mob {
+    position: absolute;
+    top: -43px;
+    height: 930px;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url("/images/bg-intro-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 0;
+    background-position-y: 30px;
+}
+
+#next-gen-mobiles {
+    position: absolute;
+    top: 100px;
+    height: 400px;
+}
+
+#next-gen-mobiles img {
+    position: relative;
+    top: -170px;
+    right: -70px;
+    max-width: 75%;
+    height: auto;
+}
+
+#next-gen {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    top: 500px;
+    left: 0;
+}
+
+#next-gen-header {
+    font-size: 50px;
+    font-weight: 200;
+    padding: 0 50px;
+    text-align: center;
+    color: hsl(233, 26%, 24%);
+}
+
+#paragraph-mob {
+    color: hsl(233, 8%, 62%);
+    font-size: 17px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+#second-section-mob #button {
+    position: absolute;
+    top: 230px;
+    left: 155px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#third-section {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 90rem;
+    top: 887px;
+}
+
+#why-choose-us {
+    position: static;
+    width: 90%;
+    height: max-content;
+    margin: auto;
+}
+
+#why-choose-us .why-paragraph {
+    font-size: 17px;
+}
+
+#row {
+    position: static;
+    margin: auto;
+    width: 90%;
+    height: max-content;
+}
+
+#row .col-sm-12 {
+    position: relative;
+    height: max-content;
+    width: 100%;
+    top: 50px;
+    margin-bottom: 50px;
+}
+
+#row .card-paragraph-2 {
+    font-size: 17px;
+    padding-right: 20px;
+}
+
+#fourth-section {
+    position: absolute;
+    top: 145.5rem;
+    z-index: 0;
+    height: max-content;
+}
+
+#fourth-section .latest-articles {
+    position: static;
+    margin: 80px auto 50px;
+    top: 10px;
+}
+
+#fourth-section .row {
+    position: static;
+    margin: auto;
+    height: inherit;
+}
+
+#fourth-section .row .col-sm-12 {
+    position: static;
+    margin: auto;
+    width: 100%;
+    height: 420px;
+    margin-bottom: 30px;
+}
+
+#fourth-section .row .col-sm-12 .common-header img {
+    width: 100%;
+    height: 200px;
+}
+
+#fourth-section .row .col-sm-12 .common-body {
+    text-align: left;
+    padding: 0 40px;
+}
+
+#fourth-section .row .col-sm-12 .common-body p:first-child {
+    font-size: 12px;
+}
+
+#fourth-section .row .col-sm-12 .common-body p:nth-child(2) {
+    font-size: 20px;
+}
+
+#fourth-section .row .col-sm-12 .common-body p:last-child {
+    font-size: 15px;
+}
+
+#footer {
+    background-color: hsl(233, 26%, 24%);
+    position: absolute;
+    top: 270rem;
+    height: 43rem;
+}
+
+#footer .row{
+    position: static;
+    margin: auto;
+    height: 40rem;
+}
+
+#footer .row .logo-social {
+    position: relative;
+    width: 100%;
+    top: 30px;
+    height: 150px;
+}
+
+#footer .row .logo-social .logo-list {
+    position: relative;
+    margin: 0;
+}
+
+#footer .row .logo-social .logo-list img {
+    position: relative;
+    left: -12px;
+    width: 30px;
+}
+
+#footer .row .more-info {
+    position: static;
+    margin: auto;
+    height: 300px;
+    width: 100%;
+}
+
+#footer .row .more-info .info-block1 {
+    position: relative;
+    width: 100%;
+    height: 130px;
+}
+
+#footer .row .more-info .info-block1 h5, .info-block2 h5 {
+    font-size: 17px;
+}
+
+#footer .row .more-info .info-block2 {
+    position: relative;
+    width: inherit;
+    height: 130px;
+    top: 20px;
+}
+
+#footer .row .btn-trademark {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    top: 10px;
+}
+
+#footer .row .btn-trademark button {
+    position: relative;
+    right: 110px;
+    top: 10px;
+}
+
+#footer .row .btn-trademark p {
+    position: static;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.attribution {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    top: -12px;
+}
+.attribution a {
+    color: hsl(192, 70%, 51%); 
+}
+
+.attribution p {
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
